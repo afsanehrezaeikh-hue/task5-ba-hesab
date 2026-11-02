@@ -1,0 +1,91 @@
+body{
+    font-family: vazirmatn,sans-serif;
+    background-color: whitesmoke;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+display: flex;
+background-color: rgb(4, 122, 111);
+height: 50px;
+color: rgb(188, 237, 233);
+
+}
+header h3{
+    margin: 0px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+main{
+    text-align: center;
+    margin: 80px;
+}
+main p{
+    color: rgb(4, 122, 111);
+}
+#measure{
+
+}
+#height{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    
+}
+#height input{
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid rgb(188, 237, 233);
+    text-align: center;
+    background-color: rgb(243, 246, 248);
+}
+#weidth{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 40px;
+}
+#weidth input{
+     height: 30px;
+    border-radius: 20px;
+    border: 1px solid rgb(188, 237, 233);
+    text-align: center;
+    background-color: rgb(243, 246, 248);
+}
+#center{
+color: rgb(4, 122, 111);
+margin-bottom: 50px;
+}
+#input1{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+#input2{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+}
+#calculation{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    gap: 6px;
+}
+#calculation button{
+     height: 40px;
+     width: 190px;
+    border-radius: 20px;
+    border: 1px solid rgb(188, 237, 233);
+    color: white;
+    background-color:  rgb(4, 122, 111);
+    font-size: 20px;
+}
