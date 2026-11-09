@@ -1,9 +1,11 @@
-const height = 1.7;
+const height = 170;
 const weight = 65;
-const age = 30;
-if( age>=19 ){
-    const BMI=weight /(height/100)**2;
-console.log(`BMIشما ${BMI}است.`)}
+const age = 20;
+if( age>19 ){
+console.log("سن شما مناسب است")}
 else{
     alert("سن شما کمتر از 19سال است")
 }
+   const bmi=weight /(height/100)**2;
+   console.log(bmi);
+   

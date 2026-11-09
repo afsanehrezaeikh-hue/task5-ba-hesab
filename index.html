@@ -4,28 +4,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>bmi</title>
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css"
         rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
-     <script src="./index.js" defer></script>
+    <script src="./index.js" defer></script>
 
 </head>
 
 <body>
-    <section id="container">
-        <header>
-            <h3> با حساب</h3>
-        </header>
-        <main>
-            <p>____ محاسبه BMI , شاخص توده بدنی ___</p>
+
+    <header>
+        <h3> با حساب</h3>
+    </header>
+    <main>
+        <section id="container">
+            <div id="titel">
+                <p>
+                <div class="dot"></div> محاسبه BMI , شاخص توده بدنی <div class="dot"></div>
+                </p>
+            </div>
+
             <div id="measure">
-                <div id="height">
+                <div id="Height">
                     <p>قد(سانتیمتر)</p>
                     <input type="text" placeholder="مثال :170">
                 </div>
-                <div id="weidth">
+                <div id="Weigth">
                     <p>وزن(کیلوگرم)</p>
                     <input type="text" placeholder="مثال:65">
                 </div>
@@ -46,10 +52,11 @@
                     <button type="submit">محا سبه</button>
                 </div>
             </div>
-        </main>
+        </section>
+    </main>
 
     </section>
-   
+
 </body>
 
 </html>
