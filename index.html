@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>bmi</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css"
         rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
@@ -29,15 +29,15 @@
             <div id="measure">
                 <div id="Height">
                     <p>قد(سانتیمتر)</p>
-                    <input type="text" placeholder="مثال :170">
+                    <input id="input-Height" type="text" placeholder="مثال :170">
                 </div>
                 <div id="Weigth">
                     <p>وزن(کیلوگرم)</p>
-                    <input type="text" placeholder="مثال:65">
+                    <input id="input-Weigth" type="text" placeholder="مثال:65">
                 </div>
                 <div id="center">
                     <div id="input1">
-                        <input type="radio" name="age">
+                        <input  id="age-input" type="radio" name="age">
                         <label for="age">سن 19سال یا بالاتر</label>
                     </div>
 
@@ -48,8 +48,9 @@
                 </div>
 
                 <div id="calculation">
-                    <p>______________</p>
-                    <button type="submit">محا سبه</button>
+                    <p id="result">______________</p>
+                    <button id="btn-calculation" type="submit">محا سبه</button>
+                   
                 </div>
             </div>
         </section>
